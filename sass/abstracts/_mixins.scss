@@ -1,0 +1,10 @@
+@mixin clearfix {
+    &::after {
+        //requiere to work
+        content: "";
+        //the standard
+        display: table;
+        //clear both: left and right
+        clear: both;
+    }
+}
